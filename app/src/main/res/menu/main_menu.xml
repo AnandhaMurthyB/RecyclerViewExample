@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/linear"
+        android:icon="@drawable/linear"
+        android:title="Linear"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/grid"
+        android:icon="@drawable/grid"
+        android:title="Grid"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/staggered"
+        android:icon="@drawable/staggered"
+        android:title="Staggered"
+        app:showAsAction="ifRoom" />
+</menu>
